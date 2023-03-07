@@ -1,0 +1,44 @@
+body {
+  background-color: #3399cc;
+  background-image: linear-gradient(#3399cc, #c2e0f0, #3399cc);
+  color: #666666;
+  font-family: sans-serif;
+}
+#wrapper {
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 700px;
+  max-width: 1024px;
+  box-shadow: 2px 2px 2px 2px #000033;
+}
+h1 {
+  background-color: #000033;
+  color: #ffffff;
+  font-family: sans-serif;
+  line-height: 200%;
+  padding-left: 2em;
+  height: 72px;
+}
+nav {
+  font-weight: bold;
+  background-color: #90c7e3;
+}
+h2 {
+  color: #3399cc;
+  font-family: sans-serif;
+}
+dt {
+  color: #000033;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.company {
+  color: #000033;
+  font-size: 1.2em;
+}
+footer {
+  font: size 0.7em;
+  font-style: italic;
+  text-align: center;
+}

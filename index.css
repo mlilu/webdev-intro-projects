@@ -1,0 +1,38 @@
+/* Lilu M. w1770997 11/06/22 */
+body {
+  background-color: rgb(174, 10, 207);
+  padding-right: 5%;
+  padding-left: 5%;
+}
+#wrapper {
+  background-color: rgb(116, 181, 241);
+  margin-right: auto;
+  margin-left: auto;
+  min-width: 700px;
+  max-width: 1024px;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-bottom: 5%;
+}
+h1 {
+  color: rgb(174, 10, 207);
+  text-decoration: underline;
+  font-family: "Franklin Gothic Medium";
+  text-align: center;
+}
+
+h2 {
+  color: rgb(14, 158, 9);
+  font-family: "Franklin Gothic Medium";
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+h3 {
+  color: darkblue;
+}
+img {
+  position: relative;
+  top: auto;
+  right: auto;
+}

@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* start style that applies to page template */
+body {
+  background-color: #04afbf;
+  color: #174844;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+main {
+  background-color: #f0f0f0;
+  padding: 3%;
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+}
+h1 {
+  background-color: #ffc7c7;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+  padding: 0.5em;
+  color: #174844;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 0;
+}
+nav {
+  background-color: #174844;
+  padding: 0.8em;
+  font-size: large;
+}
+nav a {
+  font-weight: bold;
+  margin-right: 1.5em;
+}
+/* navbar unvisited link */
+nav a:link {
+  color: #f0f0f0;
+}
+/* navbar visited link */
+nav a:visited {
+  color: #ffc7c7;
+}
+/* navbar on hover link text changes color */
+nav a:hover {
+  color: #ff0000;
+}
+.row:after {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+.col {
+  display: block;
+  float: left;
+  width: 50%;
+  /* margin: 2em; */
+}
+.clear {
+  clear: both;
+}
+footer {
+  text-align: center;
+  font-size: small;
+}
+footer a:hover {
+  color: #ff0000;
+}
+footer a:visited {
+  color: #174844;
+}
+/* End style for basic page template */
+
+/* Drop shadow and border on home page images */
+.blog-img img {
+  margin-bottom: 0.5em;
+  border: 1px solid #174844;
+  border-radius: 0.2em;
+  box-shadow: 10px 10px 5px #ccc;
+  -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  -khtml-box-shadow: 10px 10px 5px #ccc;
+}
+
+/* Start About my cats style */
+/* Style table with no internal borders and alternating row color */
+table {
+  margin: auto;
+  border: 4px solid #174844;
+  width: 30em;
+}
+th {
+  padding: 0.5em;
+  border-style: none;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+td,
+tr {
+  border-style: none;
+  padding: 0.25em;
+}
+.altrow {
+  background-color: #ffc7c7;
+}
+/* Style figure surrounding images */
+figure {
+  width: 350px;
+  padding: 0.3em;
+  border: 1px solid #174844;
+}
+figcaption {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.about-cats {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+/* Start Style Form */
+.text-input {
+  margin-bottom: 0.5em;
+}
+.submit-input {
+  margin-top: 1em;
+}
+.video-wrapper {
+  margin-top: 1.5em;
+}

@@ -1,0 +1,249 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #3399cc;
+  background-image: linear-gradient(#3399cc, #c2e0f0, #3399cc);
+  color: #666666;
+  font-family: sans-serif;
+}
+#wrapper {
+  background-color: #000033;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 700px;
+  max-width: 1024px;
+  box-shadow: 2px 2px 2px 2px #000033;
+}
+h1 {
+  display: block;
+  background-color: #000033;
+  background-image: url(sunsetimg.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-blend-mode: hard-light;
+  color: #ffffff;
+  font-family: sans-serif;
+  line-height: 200%;
+  padding-left: 2em;
+  height: 72px;
+  margin-bottom: 0px;
+}
+nav {
+  display: block;
+  background-color: #000033;
+  float: left;
+  width: 160px;
+  font-weight: bold;
+  padding: 0;
+}
+nav a:link {
+  color: #ffffff;
+}
+nav a:visited {
+  color: #c2e0f0;
+}
+nav a:hover {
+  color: #cccccc;
+}
+nav ul {
+  padding: 1em;
+}
+#homehero {
+  margin-left: 170px;
+  height: 300px;
+  background-image: url(coast.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#yurthero {
+  margin-left: 170px;
+  height: 300px;
+  background-image: url(yurt.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#trailhero {
+  margin-left: 170px;
+  height: 300px;
+  background-image: url(trail.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+main {
+  display: block;
+  background-color: #ffffff;
+  margin-left: 170px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding: 20px;
+}
+h2 {
+  color: #3399cc;
+  font-family: sans-serif;
+}
+h3 {
+  color: #000033;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+dt {
+  color: #000033;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.company {
+  color: #000033;
+  font-size: 1.2em;
+}
+footer {
+  display: block;
+  background-color: #ffffff;
+  margin-left: 170px;
+  font-size: 0.7em;
+  font-style: italic;
+  text-align: center;
+  padding-bottom: 20px;
+}
+#mobile {
+  display: none;
+}
+#desktop {
+  display: none;
+}
+@media only screen and (max-width: 1024px) {
+  body {
+    margin: 0%;
+    padding: 0%;
+    background-image: none;
+  }
+  #wrapper {
+    width: auto;
+    min-width: 0%;
+    margin: 0%;
+    box-shadow: none;
+  }
+  h1 {
+    margin: 0%;
+  }
+  nav {
+    float: none;
+    width: auto;
+    padding-top: 0.01em;
+    padding-bottom: 0.01em;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  nav li {
+    display: inline-block;
+  }
+  nav a {
+    padding-right: 2em;
+  }
+  main {
+    padding: 1em;
+    margin-left: 0%;
+    font-size: 90%;
+  }
+  footer {
+    margin: 0%;
+  }
+  #homehero {
+    margin-left: 0%;
+  }
+  #yurthero {
+    margin-left: 0%;
+  }
+  #trailhero {
+    margin-left: 0%;
+  }
+}
+@media only all and (max-width: 768px) {
+  h1 {
+    height: 100%;
+    font-size: 1.5em;
+    padding-left: 0.3em;
+  }
+  nav {
+    padding: 0%;
+  }
+  nav a {
+    display: block;
+    padding: 0.2em;
+    font-size: 1.1em;
+    border-bottom: 1px;
+    border-color: #330000;
+  }
+  nav ul {
+    margin: 0%;
+    padding: 0%;
+  }
+  nav li {
+    display: block;
+    margin: 0%;
+    padding: 0%;
+  }
+  main {
+    padding-top: 0.1em;
+    padding-right: 0.6em;
+    padding-bottom: 0.1em;
+    padding-left: 0.4em;
+  }
+  #homehero {
+    display: none;
+  }
+  #yurthero {
+    display: none;
+  }
+  #trailhero {
+    display: none;
+  }
+  footer {
+    padding: 0%;
+  }
+  #mobile {
+    display: inline;
+  }
+  #desktop {
+    display: none;
+  }
+}
+table {
+  margin: auto;
+  border: 1px solid #3399cc;
+  width: 90%;
+  border-collapse: collapse;
+}
+td,
+th {
+  border: 1px solid #3399cc;
+  padding: 5px;
+}
+td {
+  text-align: center;
+}
+text {
+  text-align: left;
+}
+tr:nth-of-type(even) {
+  background-color: #f5fafc;
+}
+label {
+  display: block;
+  float: left;
+  width: 8em;
+  padding-right: 1em;
+}
+input,
+textarea {
+  display: block;
+  margin-bottom: 1em;
+}
+#mySubmit {
+  margin-left: 10em;
+}
+video,
+embed {
+  float: right;
+  margin: 2em;
+}

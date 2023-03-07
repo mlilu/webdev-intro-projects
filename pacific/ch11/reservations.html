@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pacific Trails Resort</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="./pacific.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <h1>Pacific Trails Resort</h1>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a><span></span></li>
+          <li><a href="./yurts.html">Yurts</a><span></span></li>
+          <li><a href="./activities.html">Activities</a><span></span></li>
+          <li><a href="./reservations.html">Reservations</a><span></span></li>
+        </ul>
+      </nav>
+      <main>
+        <h2>Reservations at Pacific Trails</h2>
+        <h3>Contact Us</h3>
+        <p>Required information is marked with an asterik (*).</p>
+        <form
+          method="post"
+          action="https://webdevbasics.net/scripts/pacific.php"
+        >
+          <label for="myFname">*First Name:</label>
+          <input
+            type="textbox"
+            name="myFname"
+            id="myFname"
+            required="required"
+          />
+          <label for="myLname">*Last Name:</label>
+          <input
+            type="textbox"
+            name="myLname"
+            id="myLname"
+            required="required"
+          />
+          <label for="myEmail">*Email:</label>
+          <input type="email" name="myEmail" id="myEmail" required="required" />
+          <label for="myPhone">Phone:</label>
+          <input type="tel" name="myPhone" id="myPhone" />
+          <label for="myDate">Arrival Date</label>
+          <input type="date" name="myDate" id="myDate" />
+          <label for="myNights">Nights</label>
+          <input type="number" name="myNights" id="myNights" min="1" max="14" />
+          <label for="myComments">*Comments</label>
+          <textarea
+            name="myComments"
+            id="myComments"
+            row="2"
+            cols="20"
+            required="required"
+          ></textarea>
+          <input type="submit" id="mySubmit" value="Submit" />
+        </form>
+      </main>
+      <footer>
+        <p>
+          Copyright © 2018 Pacific Trails Resort
+          <br />
+          <a href="mailto:lilu@montoya.com">Lilu@montoya.com</a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
